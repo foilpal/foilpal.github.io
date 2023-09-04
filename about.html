@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>FOILpal - The Journey</title>
+
+    <!-- slider stylesheet -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700&display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+
+    <style>
+        /* Custom CSS for Images */
+        .img-box img {
+            width: 350px;  /* Reduced size */
+            height: 300px;  /* Reduced size */
+            object-fit: cover;
+            margin-right: 20px;
+            margin-bottom: 10px;  /* Reduced margin for spacing */
+        }
+
+        .row {
+            display: flex;
+            align-items: center; /* align vertically */
+            margin-bottom: 10px;  /* Reduced margin for spacing between rows */
+        }
+
+        .img-box {
+            flex: 0 0 350px; /* Adjusted to new size */
+        }
+
+        .detail-box {
+            flex: 1; /* Take up the rest of the space */
+        }
+    </style>
+
+</head>
+
+<body class="sub_page">
+
+    <div class="hero_area">
+        <div class="hero_area">
+            <!-- header section starts -->
+            <header class="header_section">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+                        <a class="navbar-brand" href="index.html">
+                            <span>
+                                FOILPAL
+                            </span>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                                <ul class="navbar-nav  ">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about.html"> About </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="do.html">Present</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <!-- end header section -->
+        </div>
+    </div>
+
+    <!-- who section -->
+    <section class="do_section layout_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="img-box">
+                        <img src="images/far_foil.jpg" alt="Initial Idea">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="detail-box">
+                        <div class="heading_container">
+                            <h2>
+                                THE BEGINNING
+                            </h2>
+                        </div>
+                        <p> 
+                            My journey into the world of wing foiling began during my first year in high school. From the get-go, I was enthralled by the sport, taking every opportunity to foil. Yet, mastering the art of foiling was no walk in the park; especially when it came to maintaining my balance on the board.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="img-box">
+                        <img src="images/foilpal.png" alt="FOILpal Device">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="detail-box">
+                        <p>
+                            This led to a eureka moment: What if there were a gadget that could help me better understand my positioning while foiling? This thought gave birth to the Foilpal project. Equipped with an MPU6050 sensor, a Raspberry Pi, LED lights, a portable battery, and a waterproof casing, I engineered a device that could be effortlessly affixed to my board.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="img-box">
+                        <img src="images/dadbalance.jpg" alt="Dad on Plank">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="detail-box">
+                        <p>
+                            Fast forward to the end of my sophomore year, and I had considerably honed my foiling skills. Although I had improved, I knew that FOILpal had the potential to aid beginners in the sport. This realization propelled me into the next phase: delving into data analytics. My aspiration was to develop a predictive model capable of using historical data to anticipate my movements and alert me if I was on the brink of a wipeout. Cue an unforgettable summer of coding, which included the amusing experiment of placing my dad on a plank with the Foilpal beneath him.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="img-box">
+                      <img src="images/backfoiltop.jpg" alt="Dad on Plank">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="detail-box">
+                        <p>
+                            Ultimately, I succeeded in crafting a predictive model that could foresee movements up to five seconds in advance. While real-time application during foiling was hindered by processing limitations, the model stood as a powerful testament to the potential of data analytics in the sport. Its accuracy, although not flawless, still offered invaluable insights. All said and done, Foilpal stands as a culmination of passion, innovation, and determination.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end who section -->
+
+    <footer class="container-fluid footer_section">
+        <p>
+            &copy; 2023 All Rights Reserved by FOILpal
+        </p>
+    </footer>
+
+    <!-- bootstrap js -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
